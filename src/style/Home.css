@@ -1,0 +1,140 @@
+.lists{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.logo h4 span{
+    color: orange;
+}
+
+.logo{
+    text-decoration: none;
+}
+.images{
+    height: 180px;
+    width: 80px;
+}
+
+.box{
+    border-right:  1px solid rgb(177, 173, 173); 
+    border-left:  1px solid rgb(177, 173, 173);;
+    border-top:  1px solid rgb(177, 173, 173);;
+    padding: 20px;
+    height: 280px;
+    width: 180px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.details{
+    text-align: right;
+    border-right:  1px solid rgb(177, 173, 173); 
+    border-left:  1px solid rgb(177, 173, 173);;
+    border-bottom:  1px solid rgb(177, 173, 173);;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.button{
+    border: none;
+    background-color: white;
+    color: rgb(1, 99, 247);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.click{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.click:hover{
+    scale: 110%;
+}
+.cart{
+    position: relative;
+}
+#icon{
+    font-size: 12px;
+    padding-left: 3px;
+}
+
+.add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: rgb(0, 102, 255);
+    cursor: pointer;
+}
+
+.add:hover{
+    scale: 120%;
+}
+
+.cart{
+    position: relative;
+}
+
+.notification{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(0, 4, 255);
+    color: white;
+    border-radius: 50%;
+    font-size: 10px;
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#icons{
+    color: red;
+}
+
+#icons:hover{
+    scale: 120%;
+}
+
+
+.account{
+    display: flex;
+    align-items: center;
+}
+
+.ICON{
+    color: rgb(170, 1, 170);
+    margin-right: 15px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    border: 1px solid gray;
+    margin-right: 15px;
+}
+
+.input input{
+    margin: 3px;
+    border: none;
+    outline: none;
+}
+
+
+@media(max-width:450px){
+    .box{
+        padding: 50px;
+        font-size: 20px;
+    }
+}
